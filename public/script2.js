@@ -63,6 +63,9 @@ const addCards = (items) => {
   });
 }
 
+socket.on('number', (msg) => {
+  $("#heading").html("Welcome to SIT 725 Week 3: " + msg)
+})
 
 $(document).ready(function(){
   $('.materialboxed').materialbox();
