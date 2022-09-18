@@ -1,0 +1,33 @@
+{
+  "name": "sit725-2022-t2-prac4",
+  "version": "1.0.0",
+  "description": "prac 4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
+  },
+  "author": "Loliwe",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "mongodb": "^4.9.0",
+    "request": "^2.88.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoliweLoliwe/SIT725-2022-t2-prac4.git"
+  },
+  "keywords": [
+    "prac",
+    "4"
+  ],
+  "bugs": {
+    "url": "https://github.com/LoliweLoliwe/SIT725-2022-t2-prac4/issues"
+  },
+  "homepage": "https://github.com/LoliweLoliwe/SIT725-2022-t2-prac4#readme"
+}
